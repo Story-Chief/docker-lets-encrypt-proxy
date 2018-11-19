@@ -13,3 +13,11 @@ Environment variables:
 * Create a new ECS task pointing to this repo, make sure the ORIGIN_HOST variable is set
 * Deploy the task to the ECS cluster
 * Point new domains to the ECS cluster
+
+
+# Certificate storage
+
+STORAGE_DRIVER= file|redis
+STORAGE_DIR= default /cache/ssl
+REDIS_HOST=
+REDIS_PORT=
